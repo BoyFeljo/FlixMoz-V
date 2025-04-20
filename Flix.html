@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlixMoz - Baixe Agora</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #121212;
+      color: #ffffff;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #00ff88;
+    }
+    .container {
+      padding: 20px;
+      text-align: center;
+    }
+    .btn-download {
+      background: #00ff88;
+      color: #000;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .btn-download:hover {
+      background: #00cc6e;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 150px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
+    }
+    footer {
+      background: #1f1f1f;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .paypal-button {
+      margin-top: 15px;
+      display: inline-block;
+      background: #ffc439;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .paypal-button:hover {
+      background: #e0ae36;
+    }
+  </style>
+  <script>
+    function showPayPalEmail() {
+      alert("Apoie-nos via PayPal com o e-mail: flixmozboy@gmail.com");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>FlixMoz</h1>
+    <p>Filmes, Séries e Canais ao Seu Alcance</p>
+  </header>
+
+  <div class="container">
+    <h2>Baixe o App Oficial</h2>
+    <p>Desenvolvido por <strong>Boy Feljo</strong></p>
+    <p><strong>FlixMoz</strong> é um aplicativo de filmes, séries e canais totalmente grátis. Assista onde e quando quiser, com opção de download para assistir offline.</p>
+    <a class="btn-download" href="https://auroraplay.vercel.app/details/387715e9-671a-415f-b39a-828ebca6d6f6">Baixar Agora</a>
+
+    <h3 style="margin-top: 40px;">Capturas do App</h3>
+    <div class="gallery">
+      <img src="https://i.imgur.com/jSkOIPP.jpeg" alt="Tela 1">
+      <img src="https://i.imgur.com/dkmsFu8_d.webp?maxwidth=760&fidelity=grand" alt="Tela 2">
+    </div>
+
+    <h3 style="margin-top: 40px;">Apoie o Projeto</h3>
+    <p>Gosta do FlixMoz? Apoie-nos com qualquer valor via PayPal:</p>
+    <a class="paypal-button" href="https://wa.me/258871966285" target="_blank" onclick="showPayPalEmail()">Apoiar via PayPal</a>
+
+    <h3 style="margin-top: 40px;">Contato</h3>
+    <p>Email: <a href="mailto:flixmozboy@gmail.com" style="color: #00ff88;">flixmozboy@gmail.com</a></p>
+  </div>
+
+  <footer>
+    &copy; 2025 FlixMoz. Todos os direitos reservados.
+  </footer>
+</body>
+  </html>
